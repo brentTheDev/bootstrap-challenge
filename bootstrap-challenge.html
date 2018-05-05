@@ -11,9 +11,7 @@
 		<title>Hello, world!</title>
 	</head>
 	<body>
-		<h1>Hello, world!</h1>
-		<div class="container-fluid">
-		<nav class="navbar navbar-expand-lg navbar-light bg-light">
+		<nav class="navbar navbar-expand-lg navbar-light bg-light container">
 			<a class="navbar-brand" href="#">Navbar</a>
 			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 				<span class="navbar-toggler-icon"></span>
@@ -27,23 +25,45 @@
 					<li class="nav-item">
 						<a class="nav-link" href="#">Link</a>
 					</li>
-					<li class="nav-item dropdown">
-						<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-							Dropdown
-						</a>
-						<div class="dropdown-menu" aria-labelledby="navbarDropdown">
-							<a class="dropdown-item" href="#">Action</a>
-							<a class="dropdown-item" href="#">Another action</a>
-							<div class="dropdown-divider"></div>
-							<a class="dropdown-item" href="#">Something else here</a>
-						</div>
-					</li>
 					<li class="nav-item">
 						<a class="nav-link disabled" href="#">Disabled</a>
 					</li>
 				</ul>
+				<form class="form-inline my-2 my-lg-0">
+					<input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+					<button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+				</form>
 			</div>
 		</nav>
+
+
+		<!--This is where the JUMBOTRON is located-->
+		<div class="container-fluid">
+			<div class="jumbotron container">
+				<h1 class="display-3">Hello, world!</h1>
+				<p class="lead">This is a simple hero unit, a simple jumbotron-style component for
+					calling extra attention to featured content or information.</p>
+				<hr class="my-2">
+				<p>It uses utility classes for typography and
+					spacing to space content out within the larger container.</p>
+				<p class="lead">
+					<a class="btn btn-primary btn-lg" href="#!" role="button">Some action</a>
+				</p>
+			</div>
+		</div>
+
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-4">
+					<img src="dummy-200x200.png" class="img-fluid rounded align-center" alt="Responsive image">
+				</div>
+				<div class="col-8">
+					<p>Bacon ipsum dolor amet beef ribs tail reprehenderit capicola cupidatat, turkey bacon officia.
+						Boudin aliqua pariatur, ham picanha kielbasa proident ea officia meatball adipisicing in kevin. Prosciutto
+						sausage minim id magna rump tri-tip. Eiusmod buffalo ut, chuck ribeye strip steak elit meatloaf in eu.</p>
+				</div>
+
+			</div>
 		</div>
 
 		<!-- Optional JavaScript -->
